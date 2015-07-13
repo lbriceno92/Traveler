@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14A314h" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N10-pZ-UB2" customClass="MCBarChartView">
+                                <rect key="frame" x="0.0" y="400" width="600" height="200"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="Czu-AU-lFi"/>
+                                    <constraint firstAttribute="width" constant="200" id="NnG-xi-rnu"/>
+                                    <constraint firstAttribute="height" constant="200" id="R62-pA-6Yd"/>
+                                    <constraint firstAttribute="height" constant="200" id="jMn-yY-9u8"/>
+                                    <constraint firstAttribute="width" constant="580" id="ujt-da-ZIz"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="Czu-AU-lFi"/>
+                                        <exclude reference="NnG-xi-rnu"/>
+                                        <exclude reference="jMn-yY-9u8"/>
+                                        <exclude reference="ujt-da-ZIz"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="N10-pZ-UB2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="3yV-mK-nfl"/>
+                            <constraint firstAttribute="centerX" secondItem="N10-pZ-UB2" secondAttribute="centerX" id="Fih-mQ-2XG"/>
+                            <constraint firstItem="N10-pZ-UB2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="JRO-eE-HEQ"/>
+                            <constraint firstItem="N10-pZ-UB2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" symbolic="YES" id="KdI-jq-ar4"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="N10-pZ-UB2" secondAttribute="bottom" id="UDh-hw-2rs"/>
+                            <constraint firstAttribute="trailing" secondItem="N10-pZ-UB2" secondAttribute="trailing" id="fgS-Ui-efi"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="N10-pZ-UB2" secondAttribute="trailing" constant="384" id="iJp-x5-6sk"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="N10-pZ-UB2" secondAttribute="bottom" id="tQr-KF-DAe"/>
+                            <constraint firstAttribute="trailing" secondItem="N10-pZ-UB2" secondAttribute="trailing" id="tzI-iV-syp"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="N10-pZ-UB2" secondAttribute="bottom" id="zUG-6G-K1W"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Fih-mQ-2XG"/>
+                                <exclude reference="JRO-eE-HEQ"/>
+                                <exclude reference="KdI-jq-ar4"/>
+                                <exclude reference="fgS-Ui-efi"/>
+                                <exclude reference="iJp-x5-6sk"/>
+                                <exclude reference="UDh-hw-2rs"/>
+                                <exclude reference="zUG-6G-K1W"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="barchart" destination="N10-pZ-UB2" id="D6k-aX-bZU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="449" y="248"/>
+        </scene>
+    </scenes>
+</document>

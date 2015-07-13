@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14A314h" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Currency" syncable="YES">
+        <attribute name="currencyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="currencyValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Currency" positionX="-1035" positionY="-225" width="128" height="73"/>
+    </elements>
+</model>
