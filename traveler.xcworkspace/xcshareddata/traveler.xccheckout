@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>88759160-2739-461F-A80E-2F88D7E3E98E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>traveler</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EFAC3342182ECE28EAC44E87CD9E16CB1BD71D86</key>
+		<string>https://github.com/luisvale/Traveler.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>traveler.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EFAC3342182ECE28EAC44E87CD9E16CB1BD71D86</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/luisvale/Traveler.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EFAC3342182ECE28EAC44E87CD9E16CB1BD71D86</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EFAC3342182ECE28EAC44E87CD9E16CB1BD71D86</string>
+			<key>IDESourceControlWCCName</key>
+			<string>traveler</string>
+		</dict>
+	</array>
+</dict>
+</plist>
